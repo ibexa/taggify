@@ -269,10 +269,10 @@ var Taggify = function (params) {
                     elementTagRemove = document.createElement('button');
 
                 elementTagLabel.classList.add(CLASS_TAGGIFY_TAG_LABEL);
-                elementTagLabel.innerHTML = tag.label;
+                elementTagLabel.innerText = tag.label;
 
                 elementTagRemove.classList.add(CLASS_TAGGIFY_TAG_REMOVE);
-                elementTagRemove.innerHTML = 'x';
+                elementTagRemove.innerText = 'x';
 
                 elementTag.classList.add(CLASS_TAGGIFY_TAG);
                 elementTag.dataset.tagText = tag.label;
@@ -402,7 +402,7 @@ var Taggify = function (params) {
 
     if (finalParams.displayLabel) {
         taggifyLabel.for = taggifyId;
-        taggifyLabel.innerHTML = finalParams.inputLabel;
+        taggifyLabel.innerText = finalParams.inputLabel;
 
         taggifyLabel.setAttribute('for', taggifyId);
         taggifyLabel.classList.add(CLASS_TAGGIFY_LABEL);
