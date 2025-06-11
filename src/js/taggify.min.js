@@ -1,5 +1,5 @@
 /*@preserve
- * Taggify - input tags creating library v1.2.1
+ * Taggify - input tags creating library v1.2.2
  * https://github.com/sunpietro/taggify
  *
  * Copyright 2015-2017 Piotr Nalepa
